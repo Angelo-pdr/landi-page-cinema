@@ -1,0 +1,80 @@
+
+body{
+    background-color: black;
+}
+
+h3{
+    color: white;
+}
+
+header{
+    background-color: rgb(255, 58, 58);
+    
+}
+
+.navbar .container #logo{
+    margin: 0 auto;
+    width: 50px;
+    height: auto;
+}
+
+.navbar .container .nav .nav-item .nav-link{
+    text-align: center;
+    color: black;
+}
+
+.p-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: end;
+}
+
+.tab-content .tab-pane .container .row .card{
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+.p-4 .nav-pills .nav-link{
+    color: grey;
+    background-color: transparent;
+}
+
+.p-4 .nav-pills .nav-link:hover{
+    color: red;
+}
+
+.p-4 .nav-pills .nav-link .active{
+    color: red;
+    background-attachment: red;
+}
+
+
+.container .row .card-footer p{
+    color: white;
+}
+.container .row .card-footer a{
+    color: red;
+}
+
+.p-2 .container img{
+    border-radius: 8px 8px 0px 0px;
+}
+
+.p-2 .container .tab-content .tab-pane .container .row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
